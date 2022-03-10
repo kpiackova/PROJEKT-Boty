@@ -4,6 +4,10 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
 }
 
 /*
@@ -21,3 +25,123 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.container {
+    display: flex;
+    width: 670px;
+    height: 440px;
+    margin: 50px auto;
+    /* box-shadow: 4px 4px 4px #959595; */
+        
+}
+
+.contain-green {
+    flex-basis: 335px;
+    background-image: linear-gradient(to bottom, #06d7c1, #50cc49);
+    border-radius: 2% 0 0 2%;
+    color: white;
+    padding: 30px;
+    position: relative;
+}
+.contain-white {
+    flex-basis: 335px;
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 0 2% 2% 0;
+    padding: 30px;
+    position: relative;
+    
+}
+
+.bota {
+    position: absolute;
+    left: -24%;
+    bottom: 0;
+}
+
+.contain-green p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px 0 0 0;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cena-zaruka {
+    text-align: right;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.podnadpis {
+    font-size: 14px;
+    font-weight: 400;
+    color: #959595;
+    margin: 10px 0 30px 0;
+}
+
+.text {
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    border-top: 1px solid #06d7c1;
+    padding-top: 30px;
+}
+
+.contain-white p {
+    font-size: 14px;
+}
+
+ul {
+    display: flex;
+    width: 275px;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+
+.krouzek {
+    border-radius: 40%;
+    border: 1px solid #f15f42;
+    font-weight: 500;
+    color: #f15f42;
+}
+
+.kosik {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15f42;
+    color: white;
+    border-radius: 8px;
+    padding: 15px 30px;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+
+}
